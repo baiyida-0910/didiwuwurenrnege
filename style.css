@@ -66,7 +66,7 @@ button {
 }
 
 .yes-image {
-    width: 50%; /* 图片宽度自适应容器 */
+    width: 60%; /* 图片宽度自适应容器 */
     max-width: 300px; /* 最大宽度限制 */
 }
 
@@ -103,6 +103,6 @@ button {
     }
 
     .yes-image {
-        width: 300px; /* 固定图片宽度 */
+        width: 600px; /* 固定图片宽度 */
     }
 }
