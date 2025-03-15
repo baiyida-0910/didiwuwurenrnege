@@ -37,11 +37,11 @@ noButton.addEventListener("click", function() {
     }
 
     // 图片变化（前 5 次变化）
-    if (clickCount === 1) mainImage.src = "/didiwuwurenrnege/images/1.jpg"; // 震惊
-    if (clickCount === 2) mainImage.src = "/didiwuwurenrnege/images/2.jpg";   // 思考
-    if (clickCount === 3) mainImage.src = "/didiwuwurenrnege/images/3.jpg";   // 生气
-    if (clickCount === 4) mainImage.src = "/didiwuwurenrnege/images/4.jpg";  // 哭
-    if (clickCount >= 5) mainImage.src = "/didiwuwurenrnege/images/6.jpg";  // 之后一直是哭
+    if (clickCount === 1) mainImage.src = "/didiwuwurenrnege/diyi.jpg"; // 震惊
+    if (clickCount === 2) mainImage.src = "/didiwuwurenrnege/dier.jpg";   // 思考
+    if (clickCount === 3) mainImage.src = "/didiwuwurenrnege/disan.jpg";   // 生气
+    if (clickCount === 4) mainImage.src = "/didiwuwurenrnege/disi.jpg";  // 哭
+    if (clickCount >= 5) mainImage.src = "/didiwuwurenrnege/diliu.jpg";  // 之后一直是哭
 
 });
 
@@ -50,7 +50,7 @@ yesButton.addEventListener("click", function() {
     document.body.innerHTML = `
         <div class="yes-screen">
             <h1 class="yes-text">!!!喜欢你!! ( >᎑<)♡︎ᐝ</h1>
-            <img src=""/didiwuwurenrnege/images/5.jpg";" alt="拥抱" class="yes-image">
+            <img src=""/didiwuwurenrnege/shanghao.jpg";" alt="拥抱" class="yes-image">
         </div>
     `;
 
